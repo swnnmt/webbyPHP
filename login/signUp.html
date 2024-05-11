@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./logIn.css">
+    <script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
+    <title>WEV_SIGNUP</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="background"></div>
+    <section class="home">
+    <div class="SignUp">
+        <h2> SIGN UP </h2>
+        <form onsubmit="signup()">
+        <div class="input">
+            <input type="text" class="input1" id="username" placeholder="User name" required>
+           <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input">
+            <input type="text" class="input1" id="email" placeholder="Email" required>
+           <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input">
+            <input type="password" class="input1" id="password" placeholder="Password" required>
+            <i class="fa-solid fa-lock"></i> 
+        </div>
+        <div class="input">
+            <input type="password" class="input1" id="confirmPassword" placeholder="Confirm Password" required>
+            <i class="fa-solid fa-lock"></i> 
+        </div>
+        <div class="button">
+            <button class="btn"> SignUp </button>
+        </div>
+       </form>
+       <div class="button" style="margin-top: 10px;">
+        <a href="./logIn.html"><button class="btn"> Login </button></a>
+    </div>
+    </div>
+    </div>
+</section>
+<script src="./signup_login.js"></script>
+</body>
